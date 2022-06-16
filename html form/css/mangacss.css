@@ -1,0 +1,74 @@
+body{
+    background-image:url(../images/cherry.png) ;
+    background-repeat:round;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #FFE3D4;
+}
+footer{
+    margin-top: 3rem;
+    font-size: 15px;
+    color: #c9654a;
+}
+.wrapper{
+    background-color: #FDA188;
+    width: 75%;
+    margin:2rem 10rem 5rem 10rem;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+fieldset{
+    border:none;
+}
+label{
+    display:block;
+    margin: 0 auto;
+    padding:0;
+}
+.noblock{
+    display: inline;
+}
+input{
+    border:none;
+    background-color:#FFE3D4;
+    border-radius: 1rem;
+    color:#c9654a;
+    padding:0.5rem;
+    margin:1rem 0 1rem; 
+}
+select{
+    border:none;
+    border-radius: 1rem;
+    background-color: #FFE3D4;
+    color: #c9654a;
+    padding:0.5rem;
+}
+textarea{
+    border:none;
+    border-radius: 1rem;
+    background-color: #FFE3D4;
+    color: #c9654a;
+    padding:2rem;
+    margin:0.5rem;
+    width: 50%;
+}
+button{
+    border:none;
+    border-radius: 1rem;
+    background-color: #FFE3D4;
+    color: #c9654a;
+    font-size: 1rem;
+    font-weight: bold;
+    padding:1rem;
+    margin:0.5rem;
+
+}
+legend{
+    color: #c9654a;
+    font-size: 25px;
+}
+.askinglabel,p{
+    color:aliceblue;
+    font-size: 20px;
+    margin:1rem;
+}

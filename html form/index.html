@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manga recommendation form</title>
+    <link rel="stylesheet" href="css/mangacss.css">
+</head>
+<body>
+    <div class="wrapper">
+    <form>
+        <h1>Manga recommendation form</h1>
+        <p>Please, complet your personal info to recieve weekly manga recommendation</p>
+        <section>
+            <fieldset>
+                <legend>Contact information</legend>
+                <label for="name" class="noblock">Name
+                <input id="name" type="text" name="name">
+                </label>
+                <label for="lastname" class="noblock">Lastname 
+                <input id="lastname" name="lastname" type="text">
+                </label>
+                <label for="phone">Phone
+                <input id="phone" name="phone" type="tel">
+                </label>
+                <label for="email">Email
+                <input id="email" name="email" type="email">
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Manga preferences</legend>
+                <p>What type of manga do you usually read</p>
+                <label for="type">
+                <input type="checkbox" name="type" value="shoujo">Shoujo
+                </label>
+                <label for="type">
+                <input type="checkbox" name="type" value="shounen">Shounen
+                </label>
+                <label for="type">
+                <input type="checkbox" value="boyslove" name="type">Boys love
+                </label>
+                <label for="type">
+                <input type="checkbox" name="type" value="josei">Josei
+                </label>
+                <label for="type">
+                <input type="checkbox" value="yuri" name="type">Yuri
+                </label>
+                <p>In which language do you usually read</p>
+                <label for="language">
+                <input type="radio" value="english" name="language">English
+                </label>
+                <label for="language">
+                <input type="radio" value="french" name="language">French
+                </label>
+                <label for="language">
+                <input type="radio" value="spanish" name="language">Spanish
+                </label>
+                <label for="language">
+                <input type="radio" value="german" name="language"> German
+                </label>
+                <label for="publisher" class="askinglabel">Favourite publisher</label>
+                <select name="publisher">
+                <option value="vizmedia">Viz media</option>
+                <option value="yenpress">Yen press</option>
+                <option value="kodansha">Kodansha</option>
+                <option value="sevenseas">Seven seas</option>
+                <option value="tokyopop">Tokyo pop</option>
+                </select>
+                <label for="qty" class="askinglabel">How many mangas recommendation per week do you prefer</label>
+                <input type="number" min="1" max="10" name="qty">
+                <label for="favmanga" class="askinglabel">Let us know your top 3 mangas</label>
+                <textarea id="favmanga" name="favmanga"></textarea>
+            </fieldset>
+
+        </section>
+        <button>Submit</button>
+    </form>
+    <address>
+        Coe elena<br>
+        Cel:+549 11502-18403<br>
+        Loria, 595.Lomas de zamora<br>
+        Buenos aires, Argentina<br>
+        @pyonchan<br>
+    </address>
+    </div>
+</body>
+</html>
